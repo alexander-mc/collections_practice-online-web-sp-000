@@ -12,5 +12,9 @@ def sort_array_desc(array)
 end
 =end
 
-array = [1,4,2]
+def sort_array_char_count(array)
+  array.sort{|a, b| a.length <=> b.length}
+end
+
+array = ["ab","abc","a"]
 puts sort_array_desc(array).inspect
