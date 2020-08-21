@@ -41,5 +41,11 @@ def reverse_array(array)
   array.reverse
 end
 
-array = [1,2,3]
+def kesha_maker(array)
+  array.map do |word|
+    word[2] = "$"
+  end
+end
+
+array = ["this","is","friendly"]
 puts reverse_array(array).inspect
