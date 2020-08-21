@@ -52,5 +52,9 @@ def find_a(array)
   array.select{|string| string.start_with?("a")}
 end
 
+def sum_array(array)
+  
+end
+
 array = ["ahis","is","friendly"]
 puts find_a(array).inspect
