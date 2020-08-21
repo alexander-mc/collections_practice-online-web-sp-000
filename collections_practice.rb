@@ -17,8 +17,11 @@ def sort_array_char_count(array)
 end
 
 def swap_elements(array)
-  array.sort
+  temp_2 = array[2]
+  array[2] = array[1]
+  array[1] = temp_2
+  return array
 end
 
 array = ["ab","abc","a"]
-puts sort_array_char_count(array).inspect
+puts swap_elements(array).inspect
