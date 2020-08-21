@@ -48,4 +48,4 @@ def kesha_maker(array)
 end
 
 array = ["this","is","friendly"]
-puts reverse_array(array).inspect
+puts kesha_maker(array).inspect
