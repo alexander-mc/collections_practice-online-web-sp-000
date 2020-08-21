@@ -7,4 +7,4 @@ def sort_array_desc(array)
 end
 
 array = [1,4,2]
-puts sort_array_asc(desc).inspect
+puts sort_array_desc(array).inspect
