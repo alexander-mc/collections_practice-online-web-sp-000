@@ -48,5 +48,9 @@ def kesha_maker(array)
   array
 end
 
+def find_a(array)
+  
+end
+
 array = ["this","is","friendly"]
 puts kesha_maker(array).inspect
