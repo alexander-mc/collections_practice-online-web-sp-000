@@ -53,8 +53,8 @@ def find_a(array)
 end
 
 def sum_array(array)
-  
+  array.inject(|sum,num| sum + num)
 end
 
-array = ["ahis","is","friendly"]
-puts find_a(array).inspect
+array = [1,2,3]
+puts sum_array
