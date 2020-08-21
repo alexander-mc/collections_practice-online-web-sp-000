@@ -53,4 +53,4 @@ def find_a(array)
 end
 
 array = ["ahis","is","friendly"]
-puts fina(array).inspect
+puts find_a(array).inspect
