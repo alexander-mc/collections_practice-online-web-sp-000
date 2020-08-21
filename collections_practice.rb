@@ -3,7 +3,7 @@ def sort_array_asc(array)
 end
 
 def sort_array_desc(array)
-  array.sort{|a,b| -a}
+  array.sort{|a,b| -(a<=>b)}
 end
 
 =begin # OR USE THE METHOD BELOW
