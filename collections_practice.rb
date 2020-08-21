@@ -56,5 +56,11 @@ def sum_array(array)
   array.inject{|sum,num| sum + num}
 end
 
-array = [1,2,3,2,1]
-puts sum_array(array)
+def add_s(array)
+  array.each_with_index.collect{|element, i|
+    element+"s" if i != 2
+  }
+end
+
+array = ["onion","apple"]
+puts add_s(array)
