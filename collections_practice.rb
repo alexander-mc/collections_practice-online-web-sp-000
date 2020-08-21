@@ -49,8 +49,8 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  array.select{|string| start_with?}
+  array.select{|string| string.start_with?("a")}
 end
 
-array = ["this","is","friendly"]
-puts kesha_maker(array).inspect
+array = ["ahis","is","friendly"]
+puts fina(array).inspect
