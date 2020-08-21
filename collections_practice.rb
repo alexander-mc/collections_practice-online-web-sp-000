@@ -56,5 +56,5 @@ def sum_array(array)
   array.inject{|sum,num| sum + num}
 end
 
-array = [1,2,3,1]
+array = [1,2,3,1,2]
 puts sum_array(array)
