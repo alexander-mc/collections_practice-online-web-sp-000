@@ -30,7 +30,12 @@ def swap_elements(array)
 end
 =end
 
-
+def swap_elements_from_to(array, index, destination_index)
+  temp = array[index]
+  array[index] = array[destination_index]
+  array[destination_index] = temp
+  array
+end
 
 array = ["ab","abc","a"]
-puts swap_elements(array).inspect
+puts swap_elements_from_to(array,1,2).inspect
