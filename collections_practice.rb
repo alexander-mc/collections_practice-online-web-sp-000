@@ -23,5 +23,12 @@ def swap_elements(array)
   return array
 end
 
+=begin # YOU CAN ALSO SWAP VIA PARALLEL ASSIGNMENTS
+  temp_2 = array[2]
+  array[2] = array[1]
+  array[1] = temp_2
+  return array
+=end
+
 array = ["ab","abc","a"]
 puts swap_elements(array).inspect
