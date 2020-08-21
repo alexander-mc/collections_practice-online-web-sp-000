@@ -37,7 +37,9 @@ def swap_elements_from_to(array, index, destination_index)
   array
 end
 
-
+def reverse_array(array){
+  array.reverse
+}
 
 array = ["ab","abc","a"]
-puts swap_elements_from_to(array,1,2).inspect
+puts reverse_array(array).inspect
