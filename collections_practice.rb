@@ -61,6 +61,3 @@ def add_s(array)
     i == 1 ? element : element+"s"
   }
 end
-
-array = ["onion","apple"]
-puts add_s(array)
