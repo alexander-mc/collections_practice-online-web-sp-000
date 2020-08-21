@@ -3,4 +3,4 @@ def sort_array_asc(array)
 end
 
 array = [1,4,2]
-puts sort_array_asc(array)
+puts sort_array_asc(array).inspect
