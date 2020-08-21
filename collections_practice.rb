@@ -17,16 +17,20 @@ def sort_array_char_count(array)
 end
 
 def swap_elements(array)
-  array[1], array[2] = array[2], array[1]
-  return array
-end
-
-=begin # YOU CAN ALSO SWAP VIA PARALLEL ASSIGNMENTS
   temp_2 = array[2]
   array[2] = array[1]
   array[1] = temp_2
   return array
+end
+
+=begin # YOU CAN ALSO SWAP VIA PARALLEL ASSIGNMENTS
+def swap_elements(array)
+  array[1], array[2] = array[2], array[1]
+  return array
+end
 =end
+
+
 
 array = ["ab","abc","a"]
 puts swap_elements(array).inspect
